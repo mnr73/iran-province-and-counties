@@ -1,0 +1,502 @@
+id,code,type,name,fa_name,parent_id,parent_code,country_code
+1,IR,1,Iran,ایران,,,
+2,IR10,2,Isfahan,اصفهان,1,IR,IR
+3,IR1001,3,Ardestan,اردستان,2,IR10,IR
+4,IR1002,3,Isfahan,اصفهان,2,IR10,IR
+5,IR1003,3,Khomeyni Shahr,خمینی شهر,2,IR10,IR
+6,IR1004,3,Khansar,خوانسار,2,IR10,IR
+7,IR1005,3,Semirom,سمیرم,2,IR10,IR
+8,IR1006,3,Fereidan,فریدن,2,IR10,IR
+9,IR1007,3,Fereydunshahr,فریدونشهر,2,IR10,IR
+10,IR1008,3,Falavarjan,فلاورجان,2,IR10,IR
+11,IR1009,3,Shahreza,شهرضا,2,IR10,IR
+12,IR1010,3,Kashan,کاشان,2,IR10,IR
+13,IR1012,3,Lenjan,لنجان,2,IR10,IR
+14,IR1011,3,Golpayegan,گلپایگان,2,IR10,IR
+15,IR1013,3,Naeen,نایین,2,IR10,IR
+16,IR1014,3,Najafabad,نجف آباد,2,IR10,IR
+17,IR1015,3,Natanz,نطنز,2,IR10,IR
+18,IR1016,3,Shahinshahr va Meymeh,شاهین‌شهر و میمه,2,IR10,IR
+19,IR1018,3,Aran va Bidgol,آران و بیدگل,2,IR10,IR
+20,IR1017,3,Mobarakeh,مبارکه,2,IR10,IR
+21,IR1019,3,Tiran and Karvan,تیران و کرون,2,IR10,IR
+22,IR1020,3,Chadegan,چادگان,2,IR10,IR
+23,IR1021,3,Dehaqan,دهاقان,2,IR10,IR
+24,IR1022,3,Borkhar,برخوار,2,IR10,IR
+25,IR1023,3,Khour va Biabanak,خور و بیابانک,2,IR10,IR
+26,IR1024,3,Bueen Miyandasht,بویین و میاندشت,2,IR10,IR
+27,IR1025,3,Kuhpayeh,کوهپایه,2,IR10,IR
+28,IR1026,3,Jarghooyeh,جرقویه,2,IR10,IR
+29,IR1027,3,Varzaneh,ورزنه,2,IR10,IR
+30,IR1028,3,Harand,هرند,2,IR10,IR
+31,IR11,2,Sistan and Baluchestan,سیستان و بلوچستان,1,IR,IR
+32,IR1101,3,Iranshahr,ایرانشهر,31,IR11,IR
+33,IR1102,3,Chabahar,چابهار,31,IR11,IR
+34,IR1103,3,Khash,خاش,31,IR11,IR
+35,IR1104,3,Zabol,زابل,31,IR11,IR
+36,IR1105,3,Zahedan,زاهدان,31,IR11,IR
+37,IR1106,3,Saravan,سراوان,31,IR11,IR
+38,IR1107,3,Nikshahr,نیک‌شهر,31,IR11,IR
+39,IR1108,3,Rask,راسک,31,IR11,IR
+40,IR1109,3,Konarak,کنارک,31,IR11,IR
+41,IR1110,3,Zehak,زهک,31,IR11,IR
+42,IR1111,3,Hirmand,هیرمند,31,IR11,IR
+43,IR1112,3,Delgan,دلگان,31,IR11,IR
+44,IR1113,3,Mehrestan,مهرستان,31,IR11,IR
+45,IR1114,3,Sib va Sooran,سیب و سوران,31,IR11,IR
+46,IR1115,3,Nimruz,نیمروز,31,IR11,IR
+47,IR1116,3,Hamun,هامون,31,IR11,IR
+48,IR1117,3,Mirjaveh,میرجاوه,31,IR11,IR
+49,IR1118,3,Qasr-e Qand,قصرقند,31,IR11,IR
+50,IR1119,3,Fanuj,فنوج,31,IR11,IR
+51,IR1120,3,Bampur,بمپور,31,IR11,IR
+52,IR1121,3,Taftan,تفتان,31,IR11,IR
+53,IR1122,3,Dashtiari,دشتیاری,31,IR11,IR
+54,IR1123,3,Sarbaz,سرباز,31,IR11,IR
+55,IR1124,3,Golshan,گلشن,31,IR11,IR
+56,IR1125,3,Lashar,لاشار,31,IR11,IR
+57,IR1126,3,Zarabad,زرآباد,31,IR11,IR
+58,IR12,2,Kurdistan,کردستان,1,IR,IR
+59,IR1201,3,Baneh,بانه,58,IR12,IR
+60,IR1202,3,Bijar,بیجار,58,IR12,IR
+61,IR1203,3,Saqez,سقز,58,IR12,IR
+62,IR1204,3,Sanandaj,سنندج,58,IR12,IR
+63,IR1205,3,Qorveh,قروه,58,IR12,IR
+64,IR1206,3,Marivan,مریوان,58,IR12,IR
+65,IR1207,3,Divandarreh,دیواندره,58,IR12,IR
+66,IR1208,3,Kamyaran,کامیاران,58,IR12,IR
+67,IR1209,3,Sarvabad,سروآباد,58,IR12,IR
+68,IR1210,3,Dehgolan,دهگلان,58,IR12,IR
+69,IR13,2,Hamedan,همدان,1,IR,IR
+70,IR1301,3,Tuyserkan,تویسرکان,69,IR13,IR
+71,IR1303,3,Nahavand,نهاوند,69,IR13,IR
+72,IR1302,3,Malayer,ملایر,69,IR13,IR
+73,IR1304,3,Hamedan,همدان,69,IR13,IR
+74,IR1305,3,Kabudrahang,کبودرآهنگ,69,IR13,IR
+75,IR1306,3,Asadabad,اسدآباد,69,IR13,IR
+76,IR1308,3,Razan,رزن,69,IR13,IR
+77,IR1307,3,Bahar,بهار,69,IR13,IR
+78,IR1309,3,Famenin,فامنین,69,IR13,IR
+79,IR1310,3,Darjazin,درگزین,69,IR13,IR
+80,IR14,2,Chaharmahal and Bakhtiari,چهارمحال‌وبختیاری,1,IR,IR
+81,IR1402,3,Shahr-e Kord,شهرکرد,80,IR14,IR
+82,IR1401,3,Borujen,بروجن,80,IR14,IR
+83,IR1403,3,Farsan,فارسان,80,IR14,IR
+84,IR1404,3,Lordegan,لردگان,80,IR14,IR
+85,IR1405,3,Ardal,اردل,80,IR14,IR
+86,IR1406,3,Kuhrang,کوهرنگ,80,IR14,IR
+87,IR1407,3,Kiar,کیار,80,IR14,IR
+88,IR1408,3,Saman,سامان,80,IR14,IR
+89,IR1409,3,Ben,بن,80,IR14,IR
+90,IR1410,3,Khanmirza,خانمیرزا,80,IR14,IR
+91,IR15,2,Lorestan,لرستان,1,IR,IR
+92,IR1501,3,Aligudarz,الیگودرز,91,IR15,IR
+93,IR1502,3,Borujerd,بروجرد,91,IR15,IR
+94,IR1503,3,Khorramabad,خرم آباد,91,IR15,IR
+95,IR1504,3,Delfan,دلفان,91,IR15,IR
+96,IR1505,3,Dorud,دورود,91,IR15,IR
+97,IR1507,3,Azna,ازنا,91,IR15,IR
+98,IR1506,3,Kuhdasht,کوهدشت,91,IR15,IR
+99,IR1508,3,Poldokhtar,پلدختر,91,IR15,IR
+100,IR1509,3,Selseleh,سلسله,91,IR15,IR
+101,IR1510,3,Chegeni,چگنی,91,IR15,IR
+102,IR1511,3,Rumeshkan,رومشکان,91,IR15,IR
+103,IR16,2,Ilam,ایلام,1,IR,IR
+104,IR1601,3,Ilam,ایلام,103,IR16,IR
+105,IR1602,3,Darrehshahr,دره‌شهر,103,IR16,IR
+106,IR1603,3,Dehloran,دهلران,103,IR16,IR
+107,IR1606,3,Abdanan,آبدانان,103,IR16,IR
+108,IR1604,3,Chardavol,چرداول,103,IR16,IR
+109,IR1605,3,Mehran,مهران,103,IR16,IR
+110,IR1607,3,Ivan,ایوان,103,IR16,IR
+111,IR1608,3,Malekshahi,ملکشاهی,103,IR16,IR
+112,IR1609,3,Sirvan,سیروان,103,IR16,IR
+113,IR1610,3,Badreh,بدره,103,IR16,IR
+114,IR1611,3,Holeylan,هلیلان,103,IR16,IR
+115,IR1612,3,Chavar,چوار,103,IR16,IR
+116,IR17,2,Kohgiluyeh and Boyer-Ahmad,کهگیلویه و بویراحمد,1,IR,IR
+117,IR1701,3,Boyer-Ahmad,بویراحمد,116,IR17,IR
+118,IR1702,3,Kohgiluyeh,کهگیلویه,116,IR17,IR
+119,IR1703,3,Gachsaran,گچساران,116,IR17,IR
+120,IR1704,3,Dena,دنا,116,IR17,IR
+121,IR1705,3,Bahmai,بهمئی,116,IR17,IR
+122,IR1706,3,Charam,چرام,116,IR17,IR
+123,IR1707,3,Basht,باشت,116,IR17,IR
+124,IR1708,3,Lendeh,لنده,116,IR17,IR
+125,IR1709,3,Margoon,مارگون,116,IR17,IR
+126,IR18,2,Bushehr,بوشهر,1,IR,IR
+127,IR1801,3,Bushehr,بوشهر,126,IR18,IR
+128,IR1802,3,Tangestan,تنگستان,126,IR18,IR
+129,IR1803,3,Dashtestan,دشتستان,126,IR18,IR
+130,IR1804,3,Dashti,دشتی,126,IR18,IR
+131,IR1805,3,Deyr,دیر,126,IR18,IR
+132,IR1806,3,Kangan,کنگان,126,IR18,IR
+133,IR1807,3,Ganaveh,گناوه,126,IR18,IR
+134,IR1808,3,Deylam,دیلم,126,IR18,IR
+135,IR1809,3,Jam,جم,126,IR18,IR
+136,IR1810,3,Asaluyeh,عسلویه,126,IR18,IR
+137,IR19,2,Zanjan,زنجان,1,IR,IR
+138,IR1901,3,Abhar,ابهر,137,IR19,IR
+139,IR1903,3,Khodabandeh,خدابنده,137,IR19,IR
+140,IR1904,3,Zanjan,زنجان,137,IR19,IR
+141,IR1906,3,Ijrud,ایجرود,137,IR19,IR
+142,IR1907,3,Khorramdarreh,خرمدره,137,IR19,IR
+143,IR1908,3,Tarem,طارم,137,IR19,IR
+144,IR1909,3,Mahneshan,ماهنشان,137,IR19,IR
+145,IR1910,3,Soltaniyeh,سلطانیه,137,IR19,IR
+146,IR20,2,Semnan,سمنان,1,IR,IR
+147,IR2001,3,Damghan,دامغان,146,IR20,IR
+148,IR2002,3,Semnan,سمنان,146,IR20,IR
+149,IR2003,3,Shahrud,شاهرود,146,IR20,IR
+150,IR2004,3,Garmsar,گرمسار,146,IR20,IR
+151,IR2005,3,Mehdishahr,مهدی شهر,146,IR20,IR
+152,IR2006,3,Aradan,آرادان,146,IR20,IR
+153,IR2007,3,Mayamey,میامی,146,IR20,IR
+154,IR2008,3,Sorkheh,سرخه,146,IR20,IR
+155,IR21,2,Yazd,یزد,1,IR,IR
+156,IR2101,3,Ardakan,اردکان,155,IR21,IR
+157,IR2102,3,Bafq,بافق,155,IR21,IR
+158,IR2103,3,Taft,تفت,155,IR21,IR
+159,IR2104,3,Mehriz,مهریز,155,IR21,IR
+160,IR2105,3,Yazd,یزد,155,IR21,IR
+161,IR2106,3,Meybod,میبد,155,IR21,IR
+162,IR2107,3,Abarkuh,ابرکوه,155,IR21,IR
+163,IR2108,3,Ashkezar,اشکذر,155,IR21,IR
+164,IR2109,3,Khatam,خاتم,155,IR21,IR
+165,IR2111,3,Behabad,بهاباد,155,IR21,IR
+166,IR2112,3,Marvast,مروست,155,IR21,IR
+167,IR22,2,Hormozgan,هرمزگان,1,IR,IR
+168,IR2201,3,Abu Musa,ابوموسی,167,IR22,IR
+169,IR2202,3,Bandar Abbas,بندرعباس,167,IR22,IR
+170,IR2203,3,Bandar Lengeh,بندرلنگه,167,IR22,IR
+171,IR2204,3,Qeshm,قشم,167,IR22,IR
+172,IR2205,3,Minab,میناب,167,IR22,IR
+173,IR2206,3,Jask,جاسک,167,IR22,IR
+174,IR2207,3,Rudan,رودان,167,IR22,IR
+175,IR2208,3,Hajiabad,حاجی‌آباد,167,IR22,IR
+176,IR2209,3,Bastak,بستک,167,IR22,IR
+177,IR2210,3,Khamir,خمیر,167,IR22,IR
+178,IR2211,3,Parsian,پارسیان,167,IR22,IR
+179,IR2212,3,Sirik,سیریک,167,IR22,IR
+180,IR2213,3,Bashagard,بشاگرد,167,IR22,IR
+181,IR23,2,Tehran,تهران,1,IR,IR
+182,IR2301,3,Tehran,تهران,181,IR23,IR
+183,IR2302,3,Damavand,دماوند,181,IR23,IR
+184,IR2303,3,Rey,ری,181,IR23,IR
+185,IR2318,3,Pishva,پیشوا,181,IR23,IR
+186,IR2304,3,Shemiranat,شمیرانات,181,IR23,IR
+187,IR2306,3,Varamin,ورامین,181,IR23,IR
+188,IR2309,3,Shahriar,شهریار,181,IR23,IR
+189,IR2310,3,Islamshahr,اسلامشهر,181,IR23,IR
+190,IR2312,3,Robat Karim,رباط‌کریم,181,IR23,IR
+191,IR2313,3,Pakdasht,پاکدشت,181,IR23,IR
+192,IR2314,3,Firuzkuh,فیروزکوه,181,IR23,IR
+193,IR2316,3,Qods,قدس,181,IR23,IR
+194,IR2317,3,Malard,ملارد,181,IR23,IR
+195,IR2319,3,Baharestan,بهارستان,181,IR23,IR
+196,IR2320,3,Pardis,پردیس,181,IR23,IR
+197,IR2321,3,Gharchak,قرچک,181,IR23,IR
+198,IR24,2,Ardabil,اردبیل,1,IR,IR
+199,IR2401,3,Ardabil,اردبیل,198,IR24,IR
+200,IR2402,3,Bileh Savar,بیله سوار,198,IR24,IR
+201,IR2403,3,Khalkhal,خلخال,198,IR24,IR
+202,IR2404,3,Meshginshahr,مشگین‌شهر,198,IR24,IR
+203,IR2405,3,Germy,گرمی,198,IR24,IR
+204,IR2406,3,Parsabad,پارس آباد,198,IR24,IR
+205,IR2407,3,Kowsar,کوثر,198,IR24,IR
+206,IR2408,3,Namin,نمین,198,IR24,IR
+207,IR2409,3,Nir,نیر,198,IR24,IR
+208,IR2412,3,Ungut,انگوت,198,IR24,IR
+209,IR2410,3,Sareyn,سرعین,198,IR24,IR
+210,IR2411,3,Aslan Duz,اصلاندوز,198,IR24,IR
+211,IR25,2,Qom,قم,1,IR,IR
+212,IR2501,3,Qom,قم,211,IR25,IR
+213,IR2502,3,Jafarabad,جعفرآباد,211,IR25,IR
+214,IR2503,3,Kahak,کهک,211,IR25,IR
+215,IR26,2,Qazvin,قزوین,1,IR,IR
+216,IR2601,3,Buin Zahra,بوئین زهرا,215,IR26,IR
+217,IR2602,3,Takestan,تاکستان,215,IR26,IR
+218,IR2603,3,Qazvin,قزوین,215,IR26,IR
+219,IR2604,3,Abyek,آبیک,215,IR26,IR
+220,IR2605,3,Alborz,البرز,215,IR26,IR
+221,IR2606,3,Avaj,آوج,215,IR26,IR
+222,IR27,2,Golestan,گلستان,1,IR,IR
+223,IR2701,3,Bandar-e Gaz,بندرگز,222,IR27,IR
+224,IR2703,3,Aliabad-e Katul,علی آباد کتول,222,IR27,IR
+225,IR2702,3,Torkaman,ترکمن,222,IR27,IR
+226,IR2705,3,Gorgan,گرگان,222,IR27,IR
+227,IR2711,3,Ramiyan,رامیان,222,IR27,IR
+228,IR2704,3,Kordkuy,کردکوی,222,IR27,IR
+229,IR2706,3,Gonbad-e Kavus,گنبدکاووس,222,IR27,IR
+230,IR2707,3,Minudasht,مینودشت,222,IR27,IR
+231,IR2708,3,Aqqala,آق قلا,222,IR27,IR
+232,IR2709,3,Kalaleh,کلاله,222,IR27,IR
+233,IR2710,3,Azadshahr,آزادشهر,222,IR27,IR
+234,IR2712,3,Maraveh Tappeh,مراوه تپه,222,IR27,IR
+235,IR2713,3,Gomishan,گمیشان,222,IR27,IR
+236,IR2714,3,Galikesh,گالیکش,222,IR27,IR
+237,IR28,2,Khorasan-e shomali,خراسان شمالی,1,IR,IR
+238,IR2802,3,Bojnurd,بجنورد,237,IR28,IR
+239,IR2801,3,Esfarayen,اسفراین,237,IR28,IR
+240,IR2803,3,Jajarm,جاجرم,237,IR28,IR
+241,IR2804,3,Shirvan,شیروان,237,IR28,IR
+242,IR2805,3,Faruj,فاروج,237,IR28,IR
+243,IR2806,3,Maneh va Samalqan,مانه و سملقان,237,IR28,IR
+244,IR2807,3,Garmeh,گرمه,237,IR28,IR
+245,IR2808,3,Raz va Jargalan,راز و جرگلان,237,IR28,IR
+246,IR29,2,Khorasan-e jonoobi,خراسان جنوبی,1,IR,IR
+247,IR2901,3,Birjand,بیرجند,246,IR29,IR
+248,IR2902,3,Darmiyan,درمیان,246,IR29,IR
+249,IR2903,3,Sarbisheh,سربیشه,246,IR29,IR
+250,IR2904,3,Ghayenat,قائنات,246,IR29,IR
+251,IR2905,3,Nehbandan,نهبندان,246,IR29,IR
+252,IR2906,3,Sarayan,سرایان,246,IR29,IR
+253,IR2907,3,Ferdows,فردوس,246,IR29,IR
+254,IR2908,3,Boshruyeh,بشرویه,246,IR29,IR
+255,IR2910,3,Khosf,خوسف,246,IR29,IR
+256,IR2909,3,Zirkuh,زیرکوه,246,IR29,IR
+257,IR2911,3,Tabas,طبس,246,IR29,IR
+258,IR30,2,Alborz,البرز,1,IR,IR
+259,IR3001,3,Karaj,کرج,258,IR30,IR
+260,IR3002,3,Savojbolagh,ساوجبلاغ,258,IR30,IR
+261,IR3003,3,Nazarabad,نظرآباد,258,IR30,IR
+262,IR3004,3,Taleqan,طالقان,258,IR30,IR
+263,IR3005,3,Eshtehard,اشتهارد,258,IR30,IR
+264,IR3006,3,Fardis,فردیس,258,IR30,IR
+265,IR3007,3,Charbagh,چهارباغ,258,IR30,IR
+266,IR00,2,Markazi,مرکزی,1,IR,IR
+267,IR0001,3,Arak,اراک,266,IR00,IR
+268,IR0002,3,Ashtiyan,آشتیان,266,IR00,IR
+269,IR0003,3,Tafresh,تفرش,266,IR00,IR
+270,IR0004,3,Khomeyn,خمین,266,IR00,IR
+271,IR0005,3,Delijan,دلیجان,266,IR00,IR
+272,IR0006,3,Saveh,ساوه,266,IR00,IR
+273,IR0007,3,Shazand,شازند,266,IR00,IR
+274,IR0009,3,Mahalat,محلات,266,IR00,IR
+275,IR0010,3,Zarandieh,زرندیه,266,IR00,IR
+276,IR0011,3,Komijan,کمیجان,266,IR00,IR
+277,IR0012,3,Khondab,خنداب,266,IR00,IR
+278,IR0013,3,Farahan,فراهان,266,IR00,IR
+279,IR01,2,Gilan,گیلان,1,IR,IR
+280,IR0101,3,Astara,آستارا,279,IR01,IR
+281,IR0102,3,Astaneh-ye Ashrafiyeh,آستانه اشرفیه,279,IR01,IR
+282,IR0103,3,Bandar-e Anzali,بندرانزلی,279,IR01,IR
+283,IR0104,3,Tavalish,طوالش,279,IR01,IR
+284,IR0107,3,Rudsar,رودسر,279,IR01,IR
+285,IR0105,3,Rasht,رشت,279,IR01,IR
+286,IR0106,3,Roudbar,رودبار,279,IR01,IR
+287,IR0108,3,Sowme'eh Sara,صومعه سرا,279,IR01,IR
+288,IR0117,3,Khomam,خمام,279,IR01,IR
+289,IR0109,3,Fuman,فومن,279,IR01,IR
+290,IR0110,3,Langroud,لنگرود,279,IR01,IR
+291,IR0111,3,Lahijan,لاهیجان,279,IR01,IR
+292,IR0112,3,Shaft,شفت,279,IR01,IR
+293,IR0113,3,Amlash,املش,279,IR01,IR
+294,IR0114,3,Rezvanshahr,رضوانشهر,279,IR01,IR
+295,IR0115,3,Siahkal,سیاهکل,279,IR01,IR
+296,IR0116,3,Masal,ماسال,279,IR01,IR
+297,IR02,2,Mazandaran,مازندران,1,IR,IR
+298,IR0201,3,Amol,آمل,297,IR02,IR
+299,IR0202,3,Babol,بابل,297,IR02,IR
+300,IR0204,3,Behshahr,بهشهر,297,IR02,IR
+301,IR0205,3,Tonekabon,تنکابن,297,IR02,IR
+302,IR0210,3,Qa'em Shahr,قائم شهر,297,IR02,IR
+303,IR0207,3,Sari,ساری,297,IR02,IR
+304,IR0208,3,Savadkuh,سوادکوه,297,IR02,IR
+305,IR0206,3,Ramsar,رامسر,297,IR02,IR
+306,IR0216,3,Babolsar,بابلسر,297,IR02,IR
+307,IR0218,3,Mahmudabad,محمودآباد,297,IR02,IR
+308,IR0214,3,Nour,نور,297,IR02,IR
+309,IR0215,3,Nowshahr,نوشهر,297,IR02,IR
+310,IR0221,3,Jouybar,جویبار,297,IR02,IR
+311,IR0219,3,Neka,نکا,297,IR02,IR
+312,IR0220,3,Chalus,چالوس,297,IR02,IR
+313,IR0228,3,Kelardasht,کلاردشت,297,IR02,IR
+314,IR0222,3,Galugah,گلوگاه,297,IR02,IR
+315,IR0223,3,Fereydunkenar,فریدونکنار,297,IR02,IR
+316,IR0224,3,Abbasabad,عباس آباد,297,IR02,IR
+317,IR0225,3,Miandorud,میاندورود,297,IR02,IR
+318,IR0226,3,Simorgh,سیمرغ,297,IR02,IR
+319,IR0227,3,Northern Savadkuh,سوادکوه شمالی,297,IR02,IR
+320,IR03,2,East Azerbaijan,آذربایجان شرقی,1,IR,IR
+321,IR0302,3,Ahar,اهر,320,IR03,IR
+322,IR0303,3,Tabriz,تبریز,320,IR03,IR
+323,IR0305,3,Sarab,سراب,320,IR03,IR
+324,IR0306,3,Maragheh,مراغه,320,IR03,IR
+325,IR0307,3,Marand,مرند,320,IR03,IR
+326,IR0310,3,Miyaneh,میانه,320,IR03,IR
+327,IR0311,3,Hashtrud,هشترود,320,IR03,IR
+328,IR0312,3,Bonab,بناب,320,IR03,IR
+329,IR0313,3,Bostanabad,بستان آباد,320,IR03,IR
+330,IR0314,3,Shabestar,شبستر,320,IR03,IR
+331,IR0315,3,Kalibar,کلیبر,320,IR03,IR
+332,IR0316,3,Heris,هریس,320,IR03,IR
+333,IR0319,3,Jolfa,جلفا,320,IR03,IR
+334,IR0320,3,Malekan,ملکان,320,IR03,IR
+335,IR0324,3,Varzeqan,ورزقان,320,IR03,IR
+336,IR0321,3,Azarshahr,آذرشهر,320,IR03,IR
+337,IR0322,3,Osku,اسکو,320,IR03,IR
+338,IR0323,3,Charoymaq,چاراویماق,320,IR03,IR
+339,IR0325,3,Ajabshir,عجب شیر,320,IR03,IR
+340,IR0326,3,Khoda Afarin,خداآفرین,320,IR03,IR
+341,IR0327,3,Hurand,هوراند,320,IR03,IR
+342,IR04,2,West Azerbaijan,آذربایجان غربی,1,IR,IR
+343,IR0401,3,Urmia,ارومیه,342,IR04,IR
+344,IR0402,3,Piranshahr,پیرانشهر,342,IR04,IR
+345,IR0403,3,Khoy,خوی,342,IR04,IR
+346,IR0404,3,Sardasht,سردشت,342,IR04,IR
+347,IR0405,3,Salmas,سلماس,342,IR04,IR
+348,IR0406,3,Maku,ماکو,342,IR04,IR
+349,IR0408,3,Miandoab,میاندوآب,342,IR04,IR
+350,IR0407,3,Mahabad,مهاباد,342,IR04,IR
+351,IR0411,3,Shahin Dezh,شاهین دژ,342,IR04,IR
+352,IR0410,3,Bukan,بوکان,342,IR04,IR
+353,IR0409,3,Naqadeh,نقده,342,IR04,IR
+354,IR0412,3,Takab,تکاب,342,IR04,IR
+355,IR0413,3,Oshnavieh,اشنویه,342,IR04,IR
+356,IR0414,3,Chaldoran,چالدران,342,IR04,IR
+357,IR0415,3,Poldasht,پلدشت,342,IR04,IR
+358,IR0416,3,Chaypareh,چایپاره,342,IR04,IR
+359,IR0417,3,Shut,شوط,342,IR04,IR
+360,IR0418,3,Chaharborj,چهاربرج,342,IR04,IR
+361,IR0419,3,Baruq,باروق,342,IR04,IR
+362,IR05,2,Kermanshah,کرمانشاه,1,IR,IR
+363,IR0501,3,Islamabad-e Gharb,اسلام‌آباد غرب,362,IR05,IR
+364,IR0502,3,Kermanshah,کرمانشاه,362,IR05,IR
+365,IR0503,3,Paveh,پاوه,362,IR05,IR
+366,IR0504,3,Sarpol-e Zahab,سرپل ذهاب,362,IR05,IR
+367,IR0505,3,Sonqor,سنقر,362,IR05,IR
+368,IR0506,3,Qasr-e Shirin,قصرشیرین,362,IR05,IR
+369,IR0507,3,Kangavar,کنگاور,362,IR05,IR
+370,IR0508,3,Gilan-e Gharb,گیلانغرب,362,IR05,IR
+371,IR0509,3,Javanrud,جوانرود,362,IR05,IR
+372,IR0510,3,Sahneh,صحنه,362,IR05,IR
+373,IR0511,3,Harsin,هرسین,362,IR05,IR
+374,IR0512,3,Salas-e Babajani,ثلاث باباجانی,362,IR05,IR
+375,IR0513,3,Dalahu,دالاهو,362,IR05,IR
+376,IR0514,3,Ravansar,روانسر,362,IR05,IR
+377,IR06,2,Khuzestan,خوزستان,1,IR,IR
+378,IR0601,3,Abadan,آبادان,377,IR06,IR
+379,IR0602,3,Andimeshk,اندیمشک,377,IR06,IR
+380,IR0603,3,Ahvaz,اهواز,377,IR06,IR
+381,IR0604,3,Izeh,ایذه,377,IR06,IR
+382,IR0605,3,Bandar-e Mahshahr,بندرماهشهر,377,IR06,IR
+383,IR0606,3,Behbahan,بهبهان,377,IR06,IR
+384,IR0607,3,Khorramshahr,خرمشهر,377,IR06,IR
+385,IR0608,3,Dezful,دزفول,377,IR06,IR
+386,IR0609,3,Dasht-e Azadegan,دشت آزادگان,377,IR06,IR
+387,IR0610,3,Ramhormoz,رامهرمز,377,IR06,IR
+388,IR0611,3,Shadegan,شادگان,377,IR06,IR
+389,IR0612,3,Shushtar,شوشتر,377,IR06,IR
+390,IR0613,3,Masjed Soleyman,مسجدسلیمان,377,IR06,IR
+391,IR0614,3,Shush,شوش,377,IR06,IR
+392,IR0615,3,Baghmalek,باغ ملک,377,IR06,IR
+393,IR0621,3,Andika,اندیکا,377,IR06,IR
+394,IR0616,3,Omidiyeh,امیدیه,377,IR06,IR
+395,IR0617,3,Lali,لالی,377,IR06,IR
+396,IR0618,3,Hindijan,هندیجان,377,IR06,IR
+397,IR0619,3,Ramshir,رامشیر,377,IR06,IR
+398,IR0620,3,Gotvand,گتوند,377,IR06,IR
+399,IR0622,3,Haftgel,هفتکل,377,IR06,IR
+400,IR0623,3,Hoveyzeh,هویزه,377,IR06,IR
+401,IR0624,3,Bavi,باوی,377,IR06,IR
+402,IR0625,3,Hamidiyeh,حمیدیه,377,IR06,IR
+403,IR0626,3,Aghajari,آغاجاری,377,IR06,IR
+404,IR0627,3,Karun,کارون,377,IR06,IR
+405,IR0628,3,Karkheh,کرخه,377,IR06,IR
+406,IR0629,3,Dezpart,دزپارت,377,IR06,IR
+407,IR07,2,Fars,فارس,1,IR,IR
+408,IR0701,3,Abadeh,آباده,407,IR07,IR
+409,IR0702,3,Estahban,استهبان,407,IR07,IR
+410,IR0704,3,Jahrom,جهرم,407,IR07,IR
+411,IR0703,3,Eqleed,اقلید,407,IR07,IR
+412,IR0705,3,Darab,داراب,407,IR07,IR
+413,IR0706,3,Sepidan,سپیدان,407,IR07,IR
+414,IR0707,3,Shiraz,شیراز,407,IR07,IR
+415,IR0708,3,Fasa,فسا,407,IR07,IR
+416,IR0709,3,Firuzabad,فیروزآباد,407,IR07,IR
+417,IR0710,3,Kazeroon,کازرون,407,IR07,IR
+418,IR0711,3,Lar,لارستان,407,IR07,IR
+419,IR0712,3,Marvdasht,مرودشت,407,IR07,IR
+420,IR0713,3,Mamasani,ممسنی,407,IR07,IR
+421,IR0714,3,Neyriz,نی ریز,407,IR07,IR
+422,IR0715,3,Lamerd,لامرد,407,IR07,IR
+423,IR0716,3,Bavanat,بوانات,407,IR07,IR
+424,IR0717,3,Arsenjan,ارسنجان,407,IR07,IR
+425,IR0718,3,Khorrambid,خرم بید,407,IR07,IR
+426,IR0719,3,Zarrin Dasht,زرین دشت,407,IR07,IR
+427,IR0720,3,Ghirokarzin,قیروکارزین,407,IR07,IR
+428,IR0724,3,Khonj,خنج,407,IR07,IR
+429,IR0721,3,Mehr,مهر,407,IR07,IR
+430,IR0722,3,Farashband,فراشبند,407,IR07,IR
+431,IR0723,3,Pasargad,پاسارگاد,407,IR07,IR
+432,IR0729,3,Kharameh,خرامه,407,IR07,IR
+433,IR0725,3,Sarvestan,سروستان,407,IR07,IR
+434,IR0726,3,Rostam,رستم,407,IR07,IR
+435,IR0727,3,Gerash,گراش,407,IR07,IR
+436,IR0728,3,Kavar,کوار,407,IR07,IR
+437,IR0730,3,Zarghan,زرقان,407,IR07,IR
+438,IR0731,3,Beyza,بیضا,407,IR07,IR
+439,IR0732,3,Sarchehan,سرچهان,407,IR07,IR
+440,IR0733,3,Kuhchenar,کوه چنار,407,IR07,IR
+441,IR0734,3,Khafr,خفر,407,IR07,IR
+442,IR0735,3,Bakhtegan,بختگان,407,IR07,IR
+443,IR0736,3,Evaz,اوز,407,IR07,IR
+444,IR08,2,Kerman,کرمان,1,IR,IR
+445,IR0801,3,Baft,بافت,444,IR08,IR
+446,IR0803,3,Jiroft,جیرفت,444,IR08,IR
+447,IR0802,3,Bam,بم,444,IR08,IR
+448,IR0804,3,Rafsanjan,رفسنجان,444,IR08,IR
+449,IR0805,3,Zarand,زرند,444,IR08,IR
+450,IR0806,3,Sirjan,سیرجان,444,IR08,IR
+451,IR0807,3,Shahre Babak,شهربابک,444,IR08,IR
+452,IR0808,3,Kerman,کرمان,444,IR08,IR
+453,IR0809,3,Kahnuj,کهنوج,444,IR08,IR
+454,IR0810,3,Bardsir,بردسیر,444,IR08,IR
+455,IR0811,3,Ravar,راور,444,IR08,IR
+456,IR0812,3,Anbarabad,عنبرآباد,444,IR08,IR
+457,IR0813,3,Manujan,منوجان,444,IR08,IR
+458,IR0814,3,Kuhbanan,کوهبنان,444,IR08,IR
+459,IR0815,3,Rudbar-e Jonub,رودبارجنوب,444,IR08,IR
+460,IR0816,3,Ghalehganj,قلعه گنج,444,IR08,IR
+461,IR0817,3,Rigan,ریگان,444,IR08,IR
+462,IR0818,3,Rabor,رابر,444,IR08,IR
+463,IR0819,3,Fahraj,فهرج,444,IR08,IR
+464,IR0820,3,Anar,انار,444,IR08,IR
+465,IR0821,3,Narmashir,نرماشیر,444,IR08,IR
+466,IR0822,3,Faryab,فاریاب,444,IR08,IR
+467,IR0823,3,Arzuiyeh,ارزوئیه,444,IR08,IR
+468,IR09,2,Razavi Khorasan,خراسان رضوی,1,IR,IR
+469,IR0904,3,Taybad,تایباد,468,IR09,IR
+470,IR0905,3,Torbat-e Heydarieh,تربت حیدریه,468,IR09,IR
+471,IR0908,3,Sabzevar,سبزوار,468,IR09,IR
+472,IR0906,3,Torbat-e Jam,تربت جام,468,IR09,IR
+473,IR0907,3,Dargaz,درگز,468,IR09,IR
+474,IR0915,3,Gonabad,گناباد,468,IR09,IR
+475,IR0913,3,Quchan,قوچان,468,IR09,IR
+476,IR0914,3,Kashmar,کاشمر,468,IR09,IR
+477,IR0916,3,Mashhad,مشهد,468,IR09,IR
+478,IR0917,3,Neyshabur,نیشابور,468,IR09,IR
+479,IR0920,3,Sarakhs,سرخس,468,IR09,IR
+480,IR0918,3,Chenaran,چناران,468,IR09,IR
+481,IR0919,3,Khaf,خواف,468,IR09,IR
+482,IR0922,3,Fariman,فریمان,468,IR09,IR
+483,IR0923,3,Bardaskan,بردسکن,468,IR09,IR
+484,IR0927,3,Roshtkhar,رشتخوار,468,IR09,IR
+485,IR0928,3,Kalat,کلات,468,IR09,IR
+486,IR0929,3,Khalil Abad,خلیل آباد,468,IR09,IR
+487,IR0930,3,Mahvelat,مه ولات,468,IR09,IR
+488,IR0931,3,Bajestan,بجستان,468,IR09,IR
+489,IR0933,3,Firuzeh,فیروزه,468,IR09,IR
+490,IR0932,3,Binalood,بینالود,468,IR09,IR
+491,IR0935,3,Zaveh,زاوه,468,IR09,IR
+492,IR0934,3,Joghatai,جغتای,468,IR09,IR
+493,IR0937,3,Bakharz,باخرز,468,IR09,IR
+494,IR0936,3,Joveyn,جوین,468,IR09,IR
+495,IR0938,3,Khoshab,خوشاب,468,IR09,IR
+496,IR0939,3,Davarzan,داورزن,468,IR09,IR
+497,IR0940,3,Salehabad,صالح آباد,468,IR09,IR
+498,IR0941,3,Kuhsorkh,کوهسرخ,468,IR09,IR
+499,IR0942,3,Zeberkhan,زبرخان,468,IR09,IR
+500,IR0943,3,Sheshtamad,ششتمد,468,IR09,IR
+501,IR0944,3,Golbahar,گلبهار,468,IR09,IR
