@@ -41,7 +41,7 @@ async function start() {
 	await fs.createReadStream(input)
 		.pipe(csv())
 		.on('data', function (data) {
-			if (data.BAKHSH == '') {
+			if (data.BLKABD == '') {
 				results.push(data)
 			}
 		})
@@ -56,14 +56,35 @@ async function start() {
 				let ostan = _.find(item, function (o) { return o.SHAHRESTAN == ''; });
 				let name = fix(ostan.Ostan_name)
 				addRow(`${id},IR${ostan.OSTAN},2,${langs[name]},${name},1,IR,IR`);
-				let cities = _.filter(item, 'SHAHRESTAN');
+				let counties = _.filter(item, 'SHAHRESTAN');	``
 				/**
 				 * add county
 				 */
-				await _.map(cities, async (city, key) => {
+				counties = _.groupBy(item, 'SHAHRESTAN');
+				await _.map(counties, async (item, key) => {
 					id++
-					let name = fix(city.Shahrestan_name)
-					addRow(`${id},IR${city.OSTAN}${city.SHAHRESTAN},3,${langs[name]},${name},${ostanId},IR${city.OSTAN},IR`);
+					let countyId = id;
+					let county = _.find(item, function (o) { return o.BAKHSH == ''; });
+					let name = fix(county.Shahrestan_name)
+					addRow(`${id},IR${county.OSTAN}${county.SHAHRESTAN},3,${langs[name]},${name},${ostanId},IR${county.OSTAN},IR`);
+
+					parts = _.groupBy(_.filter(item, 'BAKHSH'), 'BAKHSH');
+					await _.forEach(parts, async (item, key) => {
+						id++
+						let partId = id;
+						let part = _.find(item, function (o) { return o.SHRDEH == '' });
+						let name = fix(part.Bakhsh_name)
+						addRow(`${id},IR${part.OSTAN}${part.SHAHRESTAN}${part.BAKHSH},4,${langs[name]||''},${name},${countyId},IR${county.OSTAN}${county.SHAHRESTAN},IR`);
+	
+						cities = _.groupBy(_.filter(item, 'SHRDEH'), 'SHRDEH');
+						await _.forEach(cities, async (item, key) => {
+							id++
+							// let partId = id;
+							let city = _.find(item, function (o) { return o.BLKABD == '' });
+							let name = fix(city['Dehestan/Shahr_name'])
+							addRow(`${id},IR${city.OSTAN}${city.SHAHRESTAN}${city.BAKHSH}${city.SHRDEH},5,${langs[name]||''},${name},${partId},IR${county.OSTAN}${county.SHAHRESTAN}${city.BAKHSH},IR`);
+						})
+					})
 				})
 			})
 			writeToFile()
